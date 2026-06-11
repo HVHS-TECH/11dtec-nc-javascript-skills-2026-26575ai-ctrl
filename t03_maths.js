@@ -11,8 +11,8 @@ let pocketMoney=6;
 //var born=japan;
 var num1=10;
 var num2=16;
-var num3=pocketMoney/2
-var num4=num3+3
+var num3=pocketMoney/2;
+var num4=num3+3;
 
 console.log("Hi"+name);
 console.log("As of you are "+age+"years old");
