@@ -4,7 +4,7 @@ Name of the task:
 console.log("Running t01_introduction.js")
 const OUTPUT = document.getElementById("JavaScriptOutput");
 OUTPUT.innerHTML ="<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML +="<p>Hello "+ userName + "</p>";
+OUTPUT.innerHTML +="<p>Hello"+ userName + "</p>";
 OUTPUT.innerHTML +="<p>Second Paragraph line.</p>";
 OUTPUT.innerHTML +="<p>Therd Paragraph line.</p>";
 
