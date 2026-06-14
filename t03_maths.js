@@ -16,7 +16,6 @@ var num4=num3+3;
 
 console.log("Hi"+name);
 console.log("As of you are "+age+"years old");
-//console.log("You were born in"+born);
 console.log("In 10 years you will be"+num1+num2);
 console.log("You have"+pocketMoney+"dollars");
 console.log("You spend half of your money, now you have"+num3);
