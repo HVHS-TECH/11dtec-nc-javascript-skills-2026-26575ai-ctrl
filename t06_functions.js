@@ -33,7 +33,9 @@ console.log("Then you get $3, now you have"+num4);
 Main code
 ****************************/
 writeLine()
-
+DisplayWelcom("Mr Bob");
+let userName="Ms Alice"
+DisplayWelcom(userName);
 
 /****************************
 Functions
@@ -41,4 +43,8 @@ Functions
 function writeLine(){
     //Add a line to the html page
     OUTPUT.innerHTML +="<p>Less code matters</p>";
+}
+function DisplayWelcom(_name,_age){
+    OUTPUT.innerHTML+="<p>Welcom to the page"+_name+"</p>";
+    OUTPUT.innerHTML+="<p>You are "+_age+"years old</p>";
 }
