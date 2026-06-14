@@ -30,20 +30,6 @@ console.log("Then you get $3, now you have"+num4);
 /****************************
 Main code
 ****************************/
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>Bla, bla, bla</p>
-
-<script>
-document.write(Date());
-</script>
-
-<p>Bla, bla, bla</p>
-
-</body>
-</html> 
 
 
 
