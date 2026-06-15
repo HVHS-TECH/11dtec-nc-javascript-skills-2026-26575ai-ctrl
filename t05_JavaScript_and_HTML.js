@@ -20,3 +20,16 @@ console.log("In 10 years you will be"+num1+num2);
 console.log("You have"+pocketMoney+"dollars");
 console.log("You spend half of your money, now you have"+num3);
 console.log("Then you get $3, now you have"+num4);
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Bla bla bla</p>
+
+<script>
+document.write(Date());
+</script>
+
+<p>Bla bla bla</p>
+
+</body>
