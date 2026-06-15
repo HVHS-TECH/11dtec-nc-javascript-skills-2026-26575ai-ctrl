@@ -1,7 +1,7 @@
 /****************************
 Name of the task:
 ****************************/
-//<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 console.log("Running t01_introduction.js")
