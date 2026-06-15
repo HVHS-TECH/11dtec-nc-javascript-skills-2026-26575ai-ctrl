@@ -33,3 +33,4 @@ document.write(Date());
 <p>Bla bla bla</p>
 
 </body>
+</html>
