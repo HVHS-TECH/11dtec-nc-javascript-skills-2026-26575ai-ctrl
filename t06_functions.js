@@ -28,8 +28,7 @@ OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 Main code
 ****************************/
 writeLine();
-writeLine();
-writeLine();
+
 
 
 
@@ -38,5 +37,5 @@ Functions
 ****************************/
 function writeLine(){
     //Add a line to the html page
-    OUTPUT.innerHTML+="<p>Less code matters</p>";
+    OUTPUT.innerHTML+="<p>Welcome to the shop</p>";
 }
