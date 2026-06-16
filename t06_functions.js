@@ -1,30 +1,27 @@
- /****************************
+/****************************
 Name of the task:
 ****************************/
 console.log("Running t01_introduction.js")
-const OUTPUT = document.getElementById("JavaScriptOutput");
-OUTPUT.innerHTML ="<h2>Added by JavaScript</h2>";
-OUTPUT.innerHTML +="<p>Hello"+ userName + "</p>";
-OUTPUT.innerHTML +="<p>Second Paragraph line.</p>";
-OUTPUT.innerHTML +="<p>Therd Paragraph line.</p>";
+
 
 //Variables
 var name ="Airi"
 var age=16;
 var isStudent=true;
 let pocketMoney=6;
-//var born=japan;
 var num1=10;
 var num2=16;
 var num3=pocketMoney/2;
 var num4=num3+3;
 
-console.log("Hi"+name);
-console.log("As of you are "+age+"years old");
-console.log("In 10 years you will be"+num1+num2);
-console.log("You have"+pocketMoney+"dollars");
-console.log("You spend half of your money, now you have"+num3);
-console.log("Then you get $3, now you have"+num4);
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML="<h2>Added by JavaScript</h2>";
+OUTPUT.innerHTML="<p>Hi "+name+"</p>";
+OUTPUT.innerHTML+="<p>As of you are "+age+"years old</p>";
+OUTPUT.innerHTML+="<p>In 10 years you will be"+num1+num2+"</p>";
+OUTPUT.innerHTML+="<p>You have"+pocketMoney+"dollars</p>";
+OUTPUT.innerHTML+="<p>You spend half of your money, now you have"+num3+"</p>";
+OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 
 
 /****************************
@@ -40,6 +37,6 @@ writeLine();
 Functions
 ****************************/
 function writeLine(){
-    //Add a line to the html page 
-    OUTPUT.innerHTML +="<p>Less code matters</p>";
+    //Add a line to the html page
+    OUTPUT.innerHTML+="<p>Less code matters</p>";
 }
