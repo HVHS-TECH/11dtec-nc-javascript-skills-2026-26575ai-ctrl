@@ -28,7 +28,7 @@ OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 Main code
 ****************************/
 writeLine();
-displayWelcome("Airi", 16);
+displayWelcome("Airi", 16, $4,);
 
 
 
@@ -40,8 +40,9 @@ function writeLine(){
     //Add a line to the html page
     OUTPUT.innerHTML+="<p>Welcome to the shop</p>";
 }
-function displayWelcome(_name,_age){
+function displayWelcome(_name,_age,_chocolateBar){
     OUTPUT.innerHTML+="<p>Welcome to the page " + _name + "!</p>";
     OUTPUT.innerHTML+="<p>You are " + _age + " years old.</p>";
-    OUT
+    OUTPUT.innerHTML+="<p>Chocolate bar: " + _chocolateBar + "</p>";
+
 }
