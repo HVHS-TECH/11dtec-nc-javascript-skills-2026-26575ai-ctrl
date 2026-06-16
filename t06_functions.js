@@ -30,7 +30,9 @@ console.log("Then you get $3, now you have"+num4);
 /****************************
 Main code
 ****************************/
-
+writeLine();
+writeLine();
+writeLine();
 
 
 
@@ -38,5 +40,6 @@ Main code
 Functions
 ****************************/
 function writeLine(){
-    //Add a line to the 
+    //Add a line to the html page 
+    OUTPUT.innerHTML +="<p>Less code matters</p>";
 }
