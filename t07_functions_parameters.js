@@ -29,9 +29,7 @@ Main code
 ****************************/
 writeLine();
 displayWelcome("Airi", 16);
-let userName = "Airi";
-let userAge = 16;
-displayWelcome(userName, userAge);
+
 
 
 
@@ -45,4 +43,5 @@ function writeLine(){
 function displayWelcome(_name,_age){
     OUTPUT.innerHTML+="<p>Welcome to the page " + _name + "!</p>";
     OUTPUT.innerHTML+="<p>You are " + _age + " years old.</p>";
+    OUT
 }
