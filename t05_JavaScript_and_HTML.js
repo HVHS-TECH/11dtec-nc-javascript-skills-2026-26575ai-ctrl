@@ -1,13 +1,11 @@
-
 /****************************
 Name of the task:
 ****************************/
-
 console.log("Running t01_introduction.js")
 
 
 //Variables
-var name ="Airi";
+var name ="Airi"
 var age=16;
 var isStudent=true;
 let pocketMoney=6;
@@ -23,15 +21,14 @@ console.log("You have"+pocketMoney+"dollars");
 console.log("You spend half of your money, now you have"+num3);
 console.log("Then you get $3, now you have"+num4);
 
-//<!DOCTYPE html>
-<html>
-<body>
 
-<p>Bla bla bla</p>
+/****************************
+Main code
+****************************/
 
-<script>
-document.write(Date());
-</script>
 
-</body>
-</html>
+
+
+/****************************
+Functions
+****************************/
