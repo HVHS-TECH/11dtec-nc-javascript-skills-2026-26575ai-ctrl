@@ -2,9 +2,7 @@
 Name of the task:
 ****************************/
 console.log("Running t01_introduction.js")
-<p>Open the console <code>(Ctrl-shift-i)</code>
-<button onclick="start()">START</button>
-<div id="spaceForJavaScriptOutput">
+
 //Variables
 
 var name ="Airi"
