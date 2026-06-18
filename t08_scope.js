@@ -46,8 +46,6 @@ function displayWelcome(_name,_age,_chocolateBar){
     OUTPUT.innerHTML+=`<p>Chocolate bar: ${_chocolateBar}</p>`;
 
 }
-//Read the slides, make a prediction, then uncomment this code.
-
 var myVar=0;
 OUTPUT.innerHTML="Start: " + myVar+"<br>";
 
