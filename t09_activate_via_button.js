@@ -22,8 +22,8 @@ OUTPUT.innerHTML+="<p>You have"+pocketMoney+"dollars</p>";
 OUTPUT.innerHTML+="<p>You spend half of your money, now you have"+num3+"</p>";
 OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 
-<p>Open the console <code>(Ctrl-shift-i)</code></p>
-
+<p>Open the console <code>(Ctrl-shift-i)</code>
+<button onclick="start()">Start</button>
 <div id="spaceForJavaScriptOutput"></div>
 /****************************
 Main code
@@ -41,8 +41,7 @@ function writeLine(){
     OUTPUT.innerHTML+="<p>Welcome to the shop</p>";
 }
 function start(){
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML="";
     answer=currentYear - userAge;
     spaceForJavaScriptOutput.innerHTML
 }
