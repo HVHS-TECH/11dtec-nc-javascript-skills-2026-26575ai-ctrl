@@ -29,8 +29,6 @@ OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 /****************************
 Main code
 ****************************/
-writeLine();
-displayWelcome("Airi", 16, 4,);
 
 
 
@@ -39,18 +37,8 @@ displayWelcome("Airi", 16, 4,);
 Functions
 ****************************/
 function start(){
-    spaceForJavaScriptOutput.innerHTML;
-    spaceForJavaScriptOutput.innerHTML;
-    answer=currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
-function writeLine(){
-    //Add a line to the html page
-    OUTPUT.innerHTML+="<p>Welcome to the shop</p>";
-}
-function displayWelcome(_name,_age,_chocolateBar){
-    OUTPUT.innerHTML+="<p>Welcome to the page " + _name + "!</p>";
-    OUTPUT.innerHTML+="<p>You are " + _age + " years old.</p>";
-    OUTPUT.innerHTML+=`<p>Chocolate bar: ${_chocolateBar}</p>`;
-
+    spaceForJavaScriptOutput.innerHTML="<h2>Added by JavaScript</h2>";
+    spaceForJavaScriptOutput.innerHTML+="<p>Hi "+name+"</p>";
+    answer=currentYear-userAge;
+    spaceForJavaScriptOutput.innerHTML+="<p>As of you are "+age+"years old</p>";
 }
