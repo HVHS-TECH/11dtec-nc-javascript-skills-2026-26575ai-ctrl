@@ -1,5 +1,5 @@
 
-console.log("Running t08_scope.js")
+console.log("Running scope.js")
 
 var myVar=0;
 OUTPUT.innerHTML="Start: " + myVar+"<br>";
