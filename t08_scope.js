@@ -14,8 +14,8 @@ var num2=16;
 var num3=pocketMoney/2;
 var num4=num3+3;
 
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML="<h2>Added by JavaScript</h2>";
+const OUTPUT = document.getElementById("spaceForscopeOutput");
+/*OUTPUT.innerHTML="<h2>Added by t08_scope</h2>";
 OUTPUT.innerHTML="<p>Hi "+name+"</p>";
 OUTPUT.innerHTML+="<p>As of you are "+age+"years old</p>";
 OUTPUT.innerHTML+="<p>In 10 years you will be"+num1+num2+"</p>";
