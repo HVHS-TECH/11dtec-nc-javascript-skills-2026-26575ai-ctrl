@@ -2,7 +2,10 @@
 Name of the task:
 ****************************/
 console.log("Running t01_introduction.js")
-
+<button onClick="start()"> START </button>
+<p>Open the console <code>(Ctrl-Shift-i)</code>
+<button onclick="start()">Start</button>
+<div id="spaceForJavaScriptOutput"></div>
 
 //Variables
 var name ="Airi"
@@ -23,8 +26,6 @@ OUTPUT.innerHTML+="<p>You have"+pocketMoney+"dollars</p>";
 OUTPUT.innerHTML+="<p>You spend half of your money, now you have"+num3+"</p>";
 OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 
-<p>Open the console <code>(Ctrl-Shift-i)</code>>
-<button> oneclick="start()"></button></>
 /****************************
 Main code
 ****************************/
