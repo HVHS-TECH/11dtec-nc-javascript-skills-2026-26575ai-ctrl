@@ -23,7 +23,8 @@ OUTPUT.innerHTML+="<p>You have"+pocketMoney+"dollars</p>";
 OUTPUT.innerHTML+="<p>You spend half of your money, now you have"+num3+"</p>";
 OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 
-
+<p>Open the console <code>(Ctrl-Shift-i)</code>>
+<button> oneclick="start()"></button></>
 /****************************
 Main code
 ****************************/
