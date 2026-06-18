@@ -46,3 +46,5 @@ function displayWelcome(_name,_age,_chocolateBar){
     OUTPUT.innerHTML+=`<p>Chocolate bar: ${_chocolateBar}</p>`;
 
 }
+var myVar=0;
+OUTPUT.innerHTML+=`<p>My variable is ${myVar}</p>`;
