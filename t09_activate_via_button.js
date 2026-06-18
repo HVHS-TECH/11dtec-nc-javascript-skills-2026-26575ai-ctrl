@@ -38,6 +38,12 @@ displayWelcome("Airi", 16, 4,);
 /****************************
 Functions
 ****************************/
+function start(){
+    spaceForJavaScriptOutput.innerHTML;
+    spaceForJavaScriptOutput.innerHTML;
+    answer=currentYear - userAge;
+    spaceForJavaScriptOutput.innerHTML
+}
 function writeLine(){
     //Add a line to the html page
     OUTPUT.innerHTML+="<p>Welcome to the shop</p>";
