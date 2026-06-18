@@ -24,6 +24,7 @@ OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 
 <p>Open the console <code>(Ctrl-shift-i)</code></p>
 
+<div id="spaceForJavaScriptOutput"></div>
 /****************************
 Main code
 ****************************/
