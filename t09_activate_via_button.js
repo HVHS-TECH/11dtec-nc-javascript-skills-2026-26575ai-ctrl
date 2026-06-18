@@ -2,7 +2,7 @@
 Name of the task:
 ****************************/
 console.log("Running t01_introduction.js")
-
+<button onClick="start()">START</button>
 
 //Variables
 var name ="Airi"
@@ -39,3 +39,4 @@ function writeLine(){
     //Add a line to the html page
     OUTPUT.innerHTML+="<p>Welcome to the shop</p>";
 }
+function star
