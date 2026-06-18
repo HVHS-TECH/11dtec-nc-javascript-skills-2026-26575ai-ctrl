@@ -2,7 +2,6 @@
 Name of the task:
 ****************************/
 console.log("Running t01_introduction.js")
-
 //Variables
 
 var name ="Airi"
