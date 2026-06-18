@@ -47,4 +47,18 @@ function displayWelcome(_name,_age,_chocolateBar){
 
 }
 var myVar=0;
-OUTPUT.innerHTML+=`<p>My variable is ${myVar}</p>`;
+OUTPUT.innerHTML="Start: " + myVar+"<br>";
+
+functionOne();
+function functionOne(){
+    myVar+1;
+    OUTPUT.innerHTML+="Function one: " + myVar+"<br>";
+}
+
+functionTwo();
+function functionTwo(){
+    myVar+2;
+    OUTPUT.innerHTML+="Function two: " + myVar+"<br>";
+}
+
+OUTPUT.innerHTML+="end: " + myVar+"<br>";
