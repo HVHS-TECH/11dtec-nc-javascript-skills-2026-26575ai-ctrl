@@ -62,4 +62,3 @@ function functionTwo(){
 }
 
 OUTPUT.innerHTML+="end: " + myVar+"<br>";
-
