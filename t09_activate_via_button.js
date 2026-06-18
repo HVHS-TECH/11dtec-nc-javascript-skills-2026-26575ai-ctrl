@@ -3,9 +3,6 @@ Name of the task:
 ****************************/
 console.log("Running t01_introduction.js")
 <button onClick="start()"> START </button>
-<p>Open the console <code>(Ctrl-Shift-i)</code>
-<button onclick="start()">Start</button>
-<div id="spaceForJavaScriptOutput"></div>
 
 //Variables
 var name ="Airi"
@@ -29,6 +26,9 @@ OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 /****************************
 Main code
 ****************************/
+<p>Open the console <code>(Ctrl-Shift-i)</code>
+<button onclick="start()">Start</button>
+<div id="spaceForJavaScriptOutput"></div>
 
 
 
