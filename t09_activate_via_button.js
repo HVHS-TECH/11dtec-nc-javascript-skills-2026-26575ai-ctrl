@@ -2,7 +2,7 @@
 Name of the task:
 ****************************/
 console.log("Running t01_introduction.js")
-<button onClick="start()"> START </button>
+
 
 //Variables
 var name ="Airi"
@@ -23,12 +23,11 @@ OUTPUT.innerHTML+="<p>You have"+pocketMoney+"dollars</p>";
 OUTPUT.innerHTML+="<p>You spend half of your money, now you have"+num3+"</p>";
 OUTPUT.innerHTML+="<p>Then you get $3, now you have"+num4+"</p>";
 
+
 /****************************
 Main code
 ****************************/
-<p>Open the console <code>(Ctrl-Shift-i)</code>
-<button onclick="start()">Start</button>
-<div id="spaceForJavaScriptOutput"></div>
+writeLine();
 
 
 
@@ -36,9 +35,7 @@ Main code
 /****************************
 Functions
 ****************************/
-function start(){
-    spaceForJavaScriptOutput.innerHTML="<h2>Added by JavaScript</h2>";
-    spaceForJavaScriptOutput.innerHTML+="<p>Hi "+name+"</p>";
-    answer=currentYear-userAge;
-    spaceForJavaScriptOutput.innerHTML+="<p>As of you are "+age+"years old</p>";
+function writeLine(){
+    //Add a line to the html page
+    OUTPUT.innerHTML+="<p>Welcome to the shop</p>";
 }
