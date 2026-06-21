@@ -6,11 +6,7 @@ OUTPUT.innerHTML = "HEllo World";
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 console.log("Running t01_introduction.js")
-function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML ="<p>Your name is " + userName + "</p>";
-}
+
 //Variables
 
 var name ="Airi"
@@ -36,7 +32,7 @@ if (OUTPUT) {
 /****************************
 Main code
 ****************************/
-
+getFormInput();
 
 
 
@@ -48,4 +44,9 @@ function start(){
     spaceForJavaScriptOutput.innerHTML
     answer=currentYear - userAge;
     spaceForJavaScriptOutput.innerHTML
+}
+function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    let userName = NAME_FIELD.value;
+    OUTPUT.innerHTML ="<p>Your name is " + userName + "</p>";
 }
