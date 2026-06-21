@@ -42,6 +42,7 @@ function writeLine(){
 }
 function start(){
     spaceForJavaScriptOutput.innerHTML="";
+    
     answer=currentYear - userAge;
     spaceForJavaScriptOutput.innerHTML
 }
