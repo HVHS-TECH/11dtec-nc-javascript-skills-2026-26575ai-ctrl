@@ -5,7 +5,7 @@ const OUTPUT = document.getElementById("JavaScriptOutput");
 OUTPUT.innerHTML = "Hello World";
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
-console.log("Running t10_input_from_HTML.js")
+console.log("Running t11_data_types.js")
 
 //Variables
 
