@@ -1,7 +1,7 @@
 /****************************
 Name of the task:
 ****************************/
-const OUTPUT = document.getElementById("JavaScriptOutput");
+const OUTPUT = document.getElementById("t11_data_types");
 OUTPUT.innerHTML = "Hello World";
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
