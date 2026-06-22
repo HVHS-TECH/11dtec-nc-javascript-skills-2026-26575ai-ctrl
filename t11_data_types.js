@@ -8,15 +8,12 @@ let userName = NAME_FIELD.value;
 console.log("Running t11_data_types.js")
 
 //Variables
-
-var name ="Airi"
-var age=16;
-var isStudent=true;
-let pocketMoney=6;
-var num1=10;
-var num2=16;
-var num3=pocketMoney/2;
-var num4=num3+3;
+var num1="50";
+typeof(num1);
+var num2=50;
+typeof(num2);
+num1=Number(num1);
+typeof(num1);
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
