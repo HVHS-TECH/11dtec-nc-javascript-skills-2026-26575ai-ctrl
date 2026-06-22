@@ -2,7 +2,7 @@
 Name of the task:
 ****************************/
 const OUTPUT = document.getElementById("JavaScriptOutput");
-OUTPUT.innerHTML = "HEllo World";
+OUTPUT.innerHTML = "Hello World";
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 console.log("Running t01_introduction.js")
