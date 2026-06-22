@@ -14,6 +14,9 @@ var num2=50;
 typeof(num2);
 num1=Number(num1);
 typeof(num1);
+var drivingAgr = 16;
+var schoolName = "HVHS";
+var validReply = false;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
