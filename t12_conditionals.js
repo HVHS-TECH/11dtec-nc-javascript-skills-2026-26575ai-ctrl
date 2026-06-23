@@ -46,4 +46,5 @@ function getFormInput(){
 }
 function Number(){
     let userAgeString = AGE_FIELD.value;
-    let userAgeNumber 
+    let userAgeNumber = Number(userAgeString);
+}
