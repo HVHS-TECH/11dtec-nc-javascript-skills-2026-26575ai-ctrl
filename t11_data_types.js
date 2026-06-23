@@ -8,13 +8,7 @@ let userName = NAME_FIELD.value;
 console.log("Running t11_data_types.js")
 
 //Variables
-var num1="50";
-typeof(num1);
-var num2=50;
-typeof(num2);
-num1=Number(num1);
-typeof(num1);
-var drivingAgr = 16;
+var drivingAge = 16;
 var schoolName = "HVHS";
 var validReply = false;
 
