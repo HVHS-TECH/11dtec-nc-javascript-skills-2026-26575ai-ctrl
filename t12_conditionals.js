@@ -1,11 +1,11 @@
 /****************************
 Name of the task:
 ****************************/
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("t12_conditionals");
 OUTPUT.innerHTML = "Hello World";
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
-console.log("Running t11_data_types.js")
+console.log("Running t12_conditionals.js")
 
 //Variables
 var drivingAge = 16;
