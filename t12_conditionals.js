@@ -27,13 +27,13 @@ if (OUTPUT) {
 Main code
 ****************************/
 if(age<70){
-    console.log("Definitely too young!")
+    OUTPUT.innerHTML += "<p>Definitely too young!</p>";
 }
 if(age>=70){
-    console.log("Might be too old!")
+    OUTPUT.innerHTML += "<p>Might be too old!</p>";
 }
 if(age==70){
-    console.log("Just right!")
+    OUTPUT.innerHTML += "<p>Just right!</p>";
 }
 
 
