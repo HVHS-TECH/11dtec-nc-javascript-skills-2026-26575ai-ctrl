@@ -1,14 +1,16 @@
 /****************************
 Name of the task:
 ****************************/
-const OUTPUT = document.getElementById("t12_conditionals");
-console.log("Running t12_conditionals.js")
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML = "Hello World";
+const NAME_FIELD = document.getElementById("nameField");
+let userName = NAME_FIELD.value;
+console.log("Running t11_data_types.js")
 
 //Variables
 var drivingAge = 16;
 var schoolName = "HVHS";
 var validReply = false;
-let pocketMoney=6;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
@@ -21,20 +23,28 @@ if (OUTPUT) {
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + num4 + "</p>";
 }
 
-
 /****************************
 Main code
 ****************************/
 
-const OUTPUT = document.getElementById("t12_conditionals");
-if(pocketMoney < 4){
-    OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you can't afford it.</p>";
-}else if(pocketMoney >= 4){
-    OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You can afford it!</p>";
-}
+
 
 
 /****************************
 Functions
 ****************************/
-
+function start(){
+    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML
+    answer=currentYear - userAge;
+    spaceForJavaScriptOutput.innerHTML
+}
+function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    let userName = NAME_FIELD.value;
+    OUTPUT.innerHTML ="<p>Your name is " + userName + "</p>";
+}
+function Number(){
+    let userAgeString = AGE_FIELD.value;
+    let userAgeNumber = Number(userAgeString);
+}
