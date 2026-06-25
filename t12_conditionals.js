@@ -37,19 +37,4 @@ if(pocketMoney < 4){
 /****************************
 Functions
 ****************************/
-function start(){
-    spaceForJavaScriptOutput.innerHTML
-    spaceForJavaScriptOutput.innerHTML
-    answer=currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
-function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML ="<p>Your name is " + userName + "</p>";
-}
-function Number(){
-    let userAgeString = AGE_FIELD.value;
-    let userAgeNumber = Number(userAgeString);
-}
 
