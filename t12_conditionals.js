@@ -1,10 +1,6 @@
 /****************************
 Name of the task:
 ****************************/
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "Hello World";
-const NAME_FIELD = document.getElementById("nameField");
-let userName = NAME_FIELD.value;
 console.log("Running t12_conditionals.js")
 
 //Variables
