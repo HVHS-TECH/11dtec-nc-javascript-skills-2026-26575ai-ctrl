@@ -11,6 +11,7 @@ console.log("Running t12_conditionals.js")
 var drivingAge = 16;
 var schoolName = "HVHS";
 var validReply = false;
+let pocketMoney=6;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
@@ -23,7 +24,7 @@ if (OUTPUT) {
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + num4 + "</p>";
 }
 
-if(age >= 70){
+if(pocketMoney > 10){
     OUTPUT.innerHTML += "<p>You are ageed to prefection!</p>";
 }else if(age == 50){
     OUTPUT.innerHTML += "<p>Wow, you are half a century old!</p>";
