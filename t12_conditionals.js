@@ -2,10 +2,14 @@
 Name of the task:
 ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "Hello World";
 const NAME_FIELD = document.getElementById("nameField");
+const AGE_FIELD = document.getElementById("ageField");
+function getFormInput(){
 let userName = NAME_FIELD.value;
-console.log("Running t11_data_types.js")
+let userAge = AGE_FIELD.value;
+}
+
+console.log("Running t12_conditionals.js")
 
 //Variables
 var drivingAge = 16;
@@ -15,7 +19,7 @@ var validReply = false;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
     OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-    OUTPUT.innerHTML += "<p>Hi " + name + "</p>";
+    OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
     OUTPUT.innerHTML += "<p>As of you are " + age + " years old</p>";
     OUTPUT.innerHTML += "<p>In 10 years you will be " + (num1 + num2) + "</p>";
     OUTPUT.innerHTML += "<p>You have " + pocketMoney + " dollars</p>";
