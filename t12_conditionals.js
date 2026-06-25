@@ -8,10 +8,6 @@ const AGE_FIELD = document.getElementById("ageField");
 
 console.log("Running t12_conditionals.js")
 
-//Variables
-var drivingAge = 16;
-var schoolName = "HVHS";
-var validReply = false;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
