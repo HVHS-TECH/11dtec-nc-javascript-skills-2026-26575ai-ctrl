@@ -22,6 +22,11 @@ if (OUTPUT) {
     OUTPUT.innerHTML += "<p>You spend half of your money, now you have " + num3 + "</p>";
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + num4 + "</p>";
 }
+if(age >= 70){
+    OUTPUT.innerHTML += "<p>You are ageed to prefection!</p>";
+}else if(age == 50){
+    OUTPUT.innerHTML += "<p>Wow, you are half a century old!</p>";
+}
 
 /****************************
 Main code
@@ -48,3 +53,4 @@ function Number(){
     let userAgeString = AGE_FIELD.value;
     let userAgeNumber = Number(userAgeString);
 }
+
