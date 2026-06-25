@@ -21,7 +21,7 @@ var drivingAge = 16;
 var schoolName = "HVHS";
 var validReply = false;
 
-/*const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
     OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
     OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
@@ -30,7 +30,7 @@ if (OUTPUT) {
     OUTPUT.innerHTML += "<p>You have " + pocketMoney + " dollars</p>";
     OUTPUT.innerHTML += "<p>You spend half of your money, now you have " + num3 + "</p>";
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + num4 + "</p>";
-}*/
+}
 
 /****************************
 Main code
