@@ -24,10 +24,10 @@ if (OUTPUT) {
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + num4 + "</p>";
 }
 
-if(pocketMoney > 10){
-    OUTPUT.innerHTML += "<p>You are ageed to prefection!</p>";
-}else if(age == 50){
-    OUTPUT.innerHTML += "<p>Wow, you are half a century old!</p>";
+if(pocketMoney < 4){
+    OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you can't afford it.</p>";
+}else if(pocketMoney >= 4){
+    OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You can afford it!</p>";
 }
 
 /****************************
