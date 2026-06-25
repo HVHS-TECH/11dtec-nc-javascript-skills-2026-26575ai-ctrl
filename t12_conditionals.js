@@ -23,7 +23,7 @@ if (OUTPUT) {
     OUTPUT.innerHTML += "<p>You spend half of your money, now you have " + num3 + "</p>";
     OUTPUT.innerHTML += "<p>Then you get $3, now you have " + num4 + "</p>";
 }
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById("t12_conditionals");
 if(pocketMoney < 4){
     OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you can't afford it.</p>";
 }else if(pocketMoney >= 4){
