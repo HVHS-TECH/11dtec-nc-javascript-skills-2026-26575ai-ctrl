@@ -5,7 +5,6 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "Hello World";
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
-const ifFunction = document.getElementById("if");
 console.log("Running t12_conditionals.js")
 
 //Variables
@@ -16,13 +15,8 @@ var pocketMoney = 10;
 
 
 
-    OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-    OUTPUT.innerHTML += "<p>Hi " + name + "</p>";
-    OUTPUT.innerHTML += "<p>As of you are " + age + " years old</p>";
-    OUTPUT.innerHTML += "<p>In 10 years you will be " + (num1 + num2) + "</p>";
-    OUTPUT.innerHTML += "<p>You have " + pocketMoney + " dollars</p>";
-    OUTPUT.innerHTML += "<p>You spend half of your money, now you have " + num3 + "</p>";
-    OUTPUT.innerHTML += "<p>Then you get $3, now you have " + num4 + "</p>";
+
+
 
 
 /****************************
@@ -35,12 +29,18 @@ Main code
 /****************************
 Functions
 ****************************/
-
-function ifFunction(){
-    if(pocketMoney < 4){
+ if(pocketMoney < 4){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you cant afford a chocolate bar</p>";
 }
 if(pocketMoney >=4){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You can afford a chocolate bar</p>";
 }
+function calculatePay(_hours){
+    let pay =_hours * 18.80;
+    pay = pay-(pay* 0.105);
+    pay = pay-(pay* 0.04);
+     pay =pay+10;
+     return pay;
 }
+
+
