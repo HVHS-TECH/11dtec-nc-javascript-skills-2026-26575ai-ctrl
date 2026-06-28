@@ -11,6 +11,7 @@ console.log("Running t12_conditionals.js")
 let name = "Airi";
 let age = 16;
 let isAwake = true;
+let pocketMoney = 10;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
@@ -47,4 +48,10 @@ function getFormInput(){
 function Number(){
     let userAgeString = AGE_FIELD.value;
     let userAgeNumber = Number(userAgeString);
+}
+if(pocketMoney < 4){
+  OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you cant afford a chocolate bar</p>";
+}
+if(pocketMoney >=4){
+  OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You can afford a chocolate bar</p>";
 }
