@@ -2,7 +2,7 @@
 Name of the task:
 ****************************/
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "Hello World";
+OUTPUT.innerHTML += "Hello World";
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
 console.log("Running t12_conditionals.js")
@@ -11,9 +11,11 @@ console.log("Running t12_conditionals.js")
 let name = "Airi";
 let age = 16;
 let isAwake = true;
-var pocketMoney = 10;
+let pocketMoney = 10;
 
-
+OUTPUT.innerHTML += "This week`s pay:<br>";
+OUTPUT.innerHTML += "Monday: $" +mondayPay+"<br>";
+OUTPUT.innerHTML += "Tuesday: $" +tuesdayPay+"<br>";
 
 
 
@@ -42,5 +44,7 @@ function calculatePay(_hours){
      pay =pay+10;
      return pay;
 }
+let mondayPay = calculatePay(8);
+let tuesdayPay = calculatePay(6);
 
 
