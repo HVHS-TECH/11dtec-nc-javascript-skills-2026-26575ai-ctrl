@@ -5,6 +5,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "Hello World";
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
+const ifButton = document.getElementById("if");
 console.log("Running t12_conditionals.js")
 
 //Variables
@@ -13,7 +14,7 @@ let age = 16;
 let isAwake = true;
 var pocketMoney = 10;
 
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
 if (OUTPUT) {
     OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
     OUTPUT.innerHTML += "<p>Hi " + name + "</p>";
@@ -35,7 +36,7 @@ Main code
 Functions
 ****************************/
 function start(){
-    spaceForJavaScriptOutput.innerHTML
+    spaceForJavaScriptOutput.innerHTML = "";
     spaceForJavaScriptOutput.innerHTML
     answer=currentYear - userAge;
     spaceForJavaScriptOutput.innerHTML
@@ -49,9 +50,11 @@ function Number(){
     let userAgeString = AGE_FIELD.value;
     let userAgeNumber = Number(userAgeString);
 }
-if(pocketMoney < 4){
+function if(){
+    if(pocketMoney < 4){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you cant afford a chocolate bar</p>";
 }
 if(pocketMoney >=4){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You can afford a chocolate bar</p>";
+}
 }
