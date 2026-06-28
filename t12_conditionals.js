@@ -11,7 +11,7 @@ console.log("Running t12_conditionals.js")
 let name = "Airi";
 let age = 16;
 let isAwake = true;
-let pocketMoney = 10;
+var pocketMoney = 10;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
