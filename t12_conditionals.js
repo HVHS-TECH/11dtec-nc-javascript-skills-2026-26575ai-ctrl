@@ -35,21 +35,7 @@ Main code
 /****************************
 Functions
 ****************************/
-function start(){
-    spaceForJavaScriptOutput.innerHTML = "";
-    spaceForJavaScriptOutput.innerHTML
-    answer=currentYear - userAge;
-    spaceForJavaScriptOutput.innerHTML
-}
-function getFormInput(){
-    const NAME_FIELD = document.getElementById("nameField");
-    let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML ="<p>Your name is " + userName + "</p>";
-}
-function Number(){
-    let userAgeString = AGE_FIELD.value;
-    let userAgeNumber = Number(userAgeString);
-}
+
 function ifFunction(){
     if(pocketMoney < 4){
   OUTPUT.innerHTML += "<p>A chocolate bar costs $4 Sorry you cant afford a chocolate bar</p>";
