@@ -8,9 +8,9 @@ let userName = NAME_FIELD.value;
 console.log("Running t11_data_types.js")
 
 //Variables
-var drivingAge = 16;
-var schoolName = "HVHS";
-var validReply = false;
+let name = "Airi";
+let age = 16;
+let isAwake = true;
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 if (OUTPUT) {
