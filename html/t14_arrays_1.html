@@ -26,7 +26,12 @@
     The output of your script will go here.
 
   </div>
-<p>let choice = CHOOSE_FIELD.value;</p>
+<form onsubmit="return false;">
+  <p>let choice = CHOOSE_FIELD.value;</p>
+  <label for="formName">Name:</label>
+  <input type="text" id="nameField" name="formName" placeholder="Name">
+  <input type="submit" onClick="getFormInput()">
+</form>
  
 
   <script src="../t14_arrays_1.js"></script>
