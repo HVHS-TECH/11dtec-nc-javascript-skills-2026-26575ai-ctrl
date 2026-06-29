@@ -1,4 +1,5 @@
 let classArray = ["Airi", "Lily", "Ella", "Isabella", "Emily", "Olivia"];
-OUTPUT.innerHTML = "The sixth person in the class is " +classArray[6];
+let choice = CHOOSE_FIELD.value;
+OUTPUT.innerHTML = "You chose: " + classArray[choice] + "<br>";
 
 
