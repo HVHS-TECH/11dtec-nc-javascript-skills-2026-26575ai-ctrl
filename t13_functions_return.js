@@ -11,11 +11,11 @@ let name = "Airi";
 let age = 16;
 let isAwake = true;
 let pocketMoney = 10;
-
+if(OUTPUT){
 OUTPUT.innerHTML += "This week`s pay:<br>";
 OUTPUT.innerHTML += "Monday: $" +mondayPay+"<br>";
 OUTPUT.innerHTML += "Tuesday: $" +tuesdayPay+"<br>";
-
+}
 
 
 
