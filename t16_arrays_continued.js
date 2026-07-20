@@ -5,7 +5,6 @@ function getFormInput(event){
     let number = Number(document.getElementById("number").value);
     let names = ["Airi", "Lily", "Ella", "Isabella", "Emily", "Olivia"];
     OUTPUT.innerHTML += "Person " + (classArray.length ) + ": " + classArray[classArray.length - 1] + "<br>";
-    document.getElementById("result").textContent = names[number];
 }
 console.log("Starting Loop");
 for(let i=0; i<classArray.length; i++){
