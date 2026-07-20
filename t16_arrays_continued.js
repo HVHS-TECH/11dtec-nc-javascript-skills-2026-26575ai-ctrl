@@ -4,9 +4,11 @@ function getFormInput(event){
     event.preventDefault();
     let number = Number(document.getElementById("number").value);
     let names = ["Airi", "Lily", "Ella", "Isabella", "Emily", "Olivia"];
-    OUTPUT.innerHTML += "Person " + (classArray.length - 1) + ": " + classArray[classArray.length - 1] + "<br>";
+    OUTPUT.innerHTML += "Person " + (classArray.length ) + ": " + classArray[classArray.length - 1] + "<br>";
     document.getElementById("result").textContent = names[number];
 }
+console.log("Starting Loop");
 for(let i=0; i<classArray.length; i++){
     OUTPUT.innerHTML += "Person " + i + ": " + classArray[i] + "<br>";  
 }
+console.log("Loop stopped");
