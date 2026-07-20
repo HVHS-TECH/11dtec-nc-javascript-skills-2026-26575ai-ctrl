@@ -7,3 +7,6 @@ function getFormInput(event){
     OUTPUT.innerHTML += "Person " + (classArray.length - 1) + ": " + classArray[classArray.length - 1] + "<br>";
     document.getElementById("result").textContent = names[number];
 }
+for(let i=0; i<classArray.length; i++){
+    OUTPUT.innerHTML += "Person " + i + ": " + classArray[i] + "<br>";  
+}
