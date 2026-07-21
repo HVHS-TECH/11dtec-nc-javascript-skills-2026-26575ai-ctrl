@@ -23,9 +23,12 @@
 
   <div id="spaceForJavaScriptOutput">
 
-  <script>console.log("Starting Loop");
-  for(let i=0; i<classArray.length; i++){
-    OUTPUT.innerHTML += "Person " + i + ": " + classArray[i] + "<br>";  
+  <script>
+      let names = ["Airi", "Lily", "Ella", "Isabella", "Emily", "Olivia"];
+      let text = "Person" + i + ": " + names[i] + "<br>";
+      console.log("Starting Loop");
+  for(let i=0; i<names.length; i++){
+    OUTPUT.innerHTML += "Person " + i + ": " + names[i] + "<br>";  
   }
   console.log("Loop stopped");</script>
 

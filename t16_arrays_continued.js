@@ -1,13 +1,7 @@
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 console.log("t16_arrays_continued.js loaded");
-function getFormInput(event){
-    event.preventDefault();
-    let number = Number(document.getElementById("number").value);
-
-    OUTPUT.innerHTML += "Person " + (classArray.length ) + ": " + classArray[classArray.length - 1] + "<br>";
+const names = ["Airi", "Lily", "Ella", "Isabella", "Emily", "Olivia"];
+for(let i=0; i<names.length; i++){
+    OUTPUT.innerHTML += "Person " + i + ": " + names[i] + "<br>";  
 }
-console.log("Starting Loop");
-for(let i=0; i<classArray.length; i++){
-    OUTPUT.innerHTML += "Person " + i + ": " + classArray[i] + "<br>";  
-}
-console.log("Loop stopped");
+document.getElementById("spaceForJavaScriptOutput").innerHTML += "<br>Loop stopped";
